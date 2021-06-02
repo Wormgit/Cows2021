@@ -7,11 +7,17 @@ The trained weights from the for cow detection and identification are included i
 ## Installation
 1) Clone this repository.
 2) Install any missing requirements via pip or conda: [numpy](https://pypi.org/project/numpy/), [PyTorch](https://pytorch.org/), [OpenCV](https://pypi.org/project/opencv-python/), [Pillow](https://pypi.org/project/Pillow/), [tqdm](https://pypi.org/project/tqdm/), [sklearn](https://pypi.org/project/scikit-learn/), [seaborn](https://pypi.org/project/seaborn/). This repository requires python 3.6+
-3) Instead of installing `pycocotools`, use the pycocotools in repository.
+3) Instead of installing `pycocotools`, use the pycocotools in this repository.
 
-## Usage
 
-## Testing
+## Cow Detection
+### Testing
+
+## Video Processing
+Run the code in `make_data` one by one, we get the training images for individual identification. The trained model of detection is used
+
+## Individual Identification
+### Testing
 
 ## Training
 
