@@ -5,6 +5,7 @@ The trained weights from the for cow detection and identification are included i
 
 
 ### Installation
+Clone this repository to your local directory. Install any missing requirements via pip or conda: numpy, PyTorch, OpenCV, Pillow, tqdm, sklearn, seaborn. This repository requires python 3.6+
 
 ### Usage
 
