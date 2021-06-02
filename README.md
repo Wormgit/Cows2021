@@ -14,7 +14,7 @@ The trained weights from the for cow detection and identification are included i
 ### Testing
 
 ## Video Processing
-Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model of detection can be found `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5` from [here](https://data.bris.ac.uk/data/dataset). Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data from the folders `Sub-levels/2Identification`. 
+Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model weight of detection can be found `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5` from [here](https://data.bris.ac.uk/data/dataset). Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data from the folders `Sub-levels/2Identification`. 
 
 ## Individual Identification
 ### Testing
