@@ -14,7 +14,7 @@ The trained weights from the for cow detection and identification are included i
 ### Testing
 
 ## Video Processing
-Run the code in `make_data` one by one, we get the training images for individual identification. The trained model of detection is used
+Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model of detection is used here. Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data. 
 
 ## Individual Identification
 ### Testing
