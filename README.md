@@ -9,15 +9,16 @@ The trained weights from the for cow detection and identification are included i
 2) Install any missing requirements via pip or conda: [numpy](https://pypi.org/project/numpy/), [PyTorch](https://pytorch.org/), [OpenCV](https://pypi.org/project/opencv-python/), [Pillow](https://pypi.org/project/Pillow/), [tqdm](https://pypi.org/project/tqdm/), [sklearn](https://pypi.org/project/scikit-learn/), [seaborn](https://pypi.org/project/seaborn/). This repository requires python 3.6+
 3) Instead of installing `pycocotools`, use the pycocotools in this repository.
 
+## Usage
 
-## Video Processing
+### Video Processing
 Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model weight of detection can be found `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5` from [here](https://data.bris.ac.uk/data/dataset). Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data from `Sub-levels/2Identification`. 
 
-## Individual Identification
-### Testing
+### Individual Identification
+#### Testing
 To test a trained model by inferring embeddings and using GMM to obtain the accuracy, run the code in `Test` one by one.
 
-### Training
+#### Training
 To train the model, use python train.py -h to get help with setting command line arguments. A minimal example would be python train.py --out_path=output/ --folds_file=datasets/OpenSetCows2020/splits/10-90.json.
 
 ## Citation
