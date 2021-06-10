@@ -41,3 +41,4 @@ Consider citing ours and William's works in your own research if this repository
 }
 
 ```
+![Footer](https://github.com/Wormgit/Cows2021/images/ids.png)
