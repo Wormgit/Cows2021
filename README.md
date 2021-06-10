@@ -10,11 +10,8 @@ The trained weights from the for cow detection and identification are included i
 3) Instead of installing `pycocotools`, use the pycocotools in this repository.
 
 
-## Cow Detection
-### Testing
-
 ## Video Processing
-Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model weight of detection can be found `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5` from [here](https://data.bris.ac.uk/data/dataset). Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data from the folders `Sub-levels/2Identification`. 
+Run the code in `make_data` one by one to obtain the training images for individual identification. The trained model weight of detection can be found `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5` from [here](https://data.bris.ac.uk/data/dataset). Alternatively, you can [download](https://data.bris.ac.uk/data/dataset) this data from `Sub-levels/2Identification`. 
 
 ## Individual Identification
 ### Testing
@@ -22,3 +19,22 @@ Run the code in `make_data` one by one to obtain the training images for individ
 ## Training
 
 ## Citation
+
+Consider citing ours and William's works in your own research if this repository has been useful:
+
+```
+@article{gao2021towards,
+  title={Towards Self-Supervision for Video Identification of Individual Holstein-Friesian Cattle: The Cows2021 Dataset},
+  author={Gao, Jing and Burghardt, Tilo and Andrew, William and Dowsey, Andrew W and Campbell, Neill W},
+  journal={arXiv preprint arXiv:2105.01938},
+  year={2021}
+}
+
+@article{andrew2020visual,
+  title={Visual Identification of Individual Holstein Friesian Cattle via Deep Metric Learning},
+  author={Andrew, William and Gao, Jing and Campbell, Neill and Dowsey, Andrew W and Burghardt, Tilo},
+  journal={arXiv preprint arXiv:2006.09205},
+  year={2020}
+}
+
+```
