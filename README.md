@@ -39,6 +39,6 @@ Consider citing ours and William's works in your own research if this repository
   journal={arXiv preprint arXiv:2006.09205},
   year={2020}
 }
-
+```
 
 ![Footer](https://github.com/Wormgit/Cows2021/tree/main/images/ids.png)
