@@ -23,7 +23,7 @@ setup_gpu(gpu)  # set the modified tf session as backend in keras
 parser = argparse.ArgumentParser()
 parser.add_argument("--confidence_score_th", default=0.3, type=float)
 parser.add_argument("--nms_threshold", default=0.28, type=float)
-parser.add_argument('--frame_file', default='/home/io18230/Desktop/v/', type=str)
+parser.add_argument('--frame_file', default='/home/io18230/Desktop/0Videos/', type=str)
 parser.add_argument('--model_path', default=os.path.join('trained_model', 'resnet50_trained_144.h5'), type=str)  # /home/io18230/Desktop/ resnet50_256_0406
 parser.add_argument("--crop_detect", default=1, type=int, help='crop and save') # save cropped images
 
