@@ -28,7 +28,7 @@ Crop, remove black files, move images for making datasets
 parser = argparse.ArgumentParser()
 parser.add_argument("--angle_augment", default=1, type=int)
 parser.add_argument('--centre', default=200, type=int, help ='distance between centers') #145
-parser.add_argument('--frame_file', default='/home/io18230/Desktop/v/', type=str)#/home/io18230/0Projects/keras-retinanet-master/path/ID/video/
+parser.add_argument('--frame_file', default='/home/io18230/Desktop/0Videos/', type=str)#/home/io18230/0Projects/keras-retinanet-master/path/ID/video/
 parser.add_argument('--track', default='/home/io18230/Desktop/Track/',type=str)
 
 # address to move the files
@@ -403,4 +403,4 @@ for items in os.listdir(args.frame_file):
     makedirs(target_csv)
     shutil.copy(sorce_csv, target_csv+'/same.csv')
 print('\ncopied cropped images to a dataset\n')
-print('Next:Open 5 pairs and make images pairs')
+print('Next:Open 4makeVideo4Train and make training folders')
