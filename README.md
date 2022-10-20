@@ -19,7 +19,7 @@ The trained weights from the for cow detection and identification are included i
 To test a trained model by inferring embeddings and using GMM to obtain the accuracy, run the code in `Test` one by one.
 
 #### Training
-To train the model, use python train.py -h to get help with setting command line arguments. A minimal example would be python train.py --out_path=output/ --folds_file=datasets/OpenSetCows2020/splits/10-90.json.
+To train the model, use python train.py -h to get help with setting command line arguments. A minimal example would be python train.pyxxx
 
 ## Citation
 
