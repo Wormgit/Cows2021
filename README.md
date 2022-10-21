@@ -10,6 +10,12 @@ The trained weights from the for cow detection and identification are included i
 3) Instead of installing `pycocotools`, use the pycocotools in this repository.
 
 ## Usage
+### Cow Detection
+#### Testing
+To test a trained model, run rotate_test.py
+
+#### Training
+
 
 ### Training Data for individual identification and Video Processing
 [Download](https://data.bris.ac.uk/data/dataset/44ec2bfeda051bf39f8357d237db03af) training data from `Sub-levels/Identification/Train`. Alternatively, you can generate the trainning data from [raw videos](https://data.bris.ac.uk/data/dataset/4vnrca7qw1642qlwxjadp87h7) from `Sub-levels/Identification/Videos`. Run the code in `make_data` one by one. You can found training images in a folder called `Crop_split`. When running the codes, you will need the [trained model weight of detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38), which can be found in `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5`. 
