@@ -7,7 +7,7 @@ The trained weights from the for cow detection and identification are included i
 ## Depedencies
 1) Clone this repository.
 2) Modify the prefix in `conda_detection.yaml` with your own path and name. Create your environment using anaconda. 
-3) Instead of installing `pycocotools`, use the pycocotools in this repository.
+3) Instead of installing `pycocotools`, use the pycocotools in this repository(`Detection/keras_retinanet/bin/cocoapi`).
 
 ## Usage
 
