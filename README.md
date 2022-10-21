@@ -6,13 +6,16 @@ The trained weights from the for cow detection and identification are included i
 
 ## Depedencies
 1) Clone this repository.
-2) Modify the prefix in `conda_detection.yaml` with your own path and name and create your environment using anaconda. 
+2) Modify the prefix in `conda_detection.yaml` with your own path and name. Create your environment using anaconda. 
 3) Instead of installing `pycocotools`, use the pycocotools in this repository.
 
 ## Usage
+
 ### Cow Detection
+
 #### Testing
-To test a trained model, run rotate_test.py
+To test a trained model, copy the [trained model weight for detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38) resnet50_trained_144.h5. Run rotate_test.py.
+
 
 #### Training
 
