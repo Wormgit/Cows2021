@@ -14,7 +14,7 @@ The trained weights from the for cow detection and identification are included i
 ### Cow Detection
 
 #### Testing
-To test a trained model, copy the [trained model weight for detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38) resnet50_trained_144.h5. Run rotate_test.py.
+To test a trained model, copy the [trained model weight for detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38) resnet50_trained_144.h5 to `Detection/test/trained_model`. Run rotate_test.py.
 
 
 #### Training
