@@ -14,13 +14,11 @@ The trained weights from the for cow detection and identification are included i
 ### Cow Detection
 
 #### Testing
-To test a trained model, copy the [trained model weight for detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38) resnet50_trained_144.h5 to `Detection/test/trained_model`. Run rotate_test.py. example: python rotate_test.py --confidence_score_th=0.3 --nms_threshold=0.28 --save_path='xxx' --set_dir='xxx' --model_path='trained_model/resnet50_trained_144.h5' --print_id=0 --show_time=0 --pre=1 --map=1 --withground=1
+To test a trained model, copy the [trained model weight for detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38) resnet50_trained_144.h5 to `Detection/test/trained_model`. Run rotate_test.py. An example would be `python rotate_test.py --confidence_score_th=0.3 --nms_threshold=0.28 --save_path='xxx' --set_dir='xxx' --model_path='trained_model/resnet50_trained_144.h5' --print_id=0 --show_time=0 --pre=1 --map=1 --withground=1`
 
 
 #### Training
-Go to `Detection/keras_retinanet/b_rotated`, run train_rotated.py.
-python train_rotated.py --epochs=1 --steps=2 --evaluation=1 --snapshot_path='snapshots' 
---dataset_path='xxx' --freeze_backbone=0 --random_transform=1 --resume=0
+Go to `Detection/keras_retinanet/b_rotated`, run train_rotated.py. An example would be `python train_rotated.py --epochs=1 --steps=2 --evaluation=1 --snapshot_path='snapshots' --dataset_path='xxx' --freeze_backbone=0 --random_transform=1 --resume=0`
 
 ### Training Data for individual identification and Video Processing
 [Download](https://data.bris.ac.uk/data/dataset/44ec2bfeda051bf39f8357d237db03af) training data from `Sub-levels/Identification/Train`. Alternatively, you can generate the trainning data from [raw videos](https://data.bris.ac.uk/data/dataset/4vnrca7qw1642qlwxjadp87h7) from `Sub-levels/Identification/Videos`. Run the code in `make_data` one by one. You can found training images in a folder called `Crop_split`. When running the codes, you will need the [trained model weight of detection](https://data.bris.ac.uk/data/dataset/0096ed43188f439745155da595f13b38), which can be found in `Sub-levels/3Weights/trained_model/resnet50_trained_144.h5`. 
